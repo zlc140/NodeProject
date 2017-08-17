@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>文章列表</h1>
+	{{#each entries}}
+		<p>
+			<a href="/article/{{id}}">{{title}}</a>
+			Published: {{published}}
+		</p>
+	{{/each}}
+</body>
+</html>

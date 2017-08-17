@@ -1,0 +1,13 @@
+{
+  "name": "hello-world",
+  "description": "hello world test express",
+  "version": "0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "hbs": "^4.0.1"
+  }
+}
